@@ -1,0 +1,43 @@
+{
+  "holdout": {
+    "Mean baseline": {
+      "MAE": 1724.1186610642606,
+      "R2": -0.00013303157990396386,
+      "level_acc": 0.2868236164180944
+    },
+    "Linear Regression": {
+      "MAE": 1585.3910811367637,
+      "R2": 0.15994661855269332,
+      "level_acc": 0.2447923086404536
+    },
+    "Random Forest": {
+      "MAE": 251.75094411111712,
+      "R2": 0.9485599466429383,
+      "level_acc": 0.9303586835942315
+    }
+  },
+  "cv_mae": 274.541648973566,
+  "cv_r2": 0.9411822296894531,
+  "importance": {
+    "hour": 0.866,
+    "day_of_week": 0.108,
+    "temp": 0.009,
+    "day": 0.009,
+    "month": 0.006,
+    "clouds_all": 0.002,
+    "rain_1h": 0.0,
+    "snow_1h": 0.0,
+    "is_holiday": 0.0
+  },
+  "features": [
+    "temp",
+    "rain_1h",
+    "snow_1h",
+    "clouds_all",
+    "hour",
+    "day",
+    "month",
+    "day_of_week",
+    "is_holiday"
+  ]
+}
